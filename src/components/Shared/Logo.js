@@ -2,9 +2,9 @@ import { ReactComponent as MyIcon } from "../../assets/images/Logo.svg";
 
 const Logo = () => {
   return (
-    <>
-    <MyIcon/>
-    </>
+    <header>
+      <MyIcon />
+    </header>
   );
 };
 export default Logo;

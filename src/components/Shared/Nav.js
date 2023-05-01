@@ -1,8 +1,6 @@
-import Logo from "./Logo";
 const Nav = () => {
   return (
     <>
-      <Logo />
       <nav>
         <ul>
           <li>
