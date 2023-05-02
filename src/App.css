@@ -1,0 +1,29 @@
+*{
+   padding: 5px;
+    margin: 0;
+}
+.App{
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-template-areas:
+    "header"
+    "main"
+    "footer";
+}
+main{
+    padding: 10px;
+    margin: 5px;
+    background-color: beige;
+}
+footer{
+    padding: 10px;
+    margin: 5px;
+    background-color: bisque;
+}
+
+/*@media (max-width: 768px) {*/
+
+/*    .App {*/
+/*        grid-template-rows: auto auto auto;*/
+/*    }*/
+/*}*/

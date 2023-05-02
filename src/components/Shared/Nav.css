@@ -1,0 +1,35 @@
+ul {
+    padding: 10px;
+    list-style: none; /* remove bullet point */
+    display: grid; /* add grid layout */
+    grid-auto-flow: column;
+    grid-gap: 5px; /* define gap between grid items */
+}
+nav {
+    background-color: #c1c1c1;
+
+}
+a{
+    text-decoration: none; /* remove underline */
+    color: inherit; /* inherit color from parent element */
+    padding: 20px;
+    text-align: center;
+}
+a:hover{
+    background-color: darkslategray;
+    color:white;
+}
+
+@media (max-width: 768px) {
+
+    ul {
+
+        grid-auto-flow: row;
+        justify-content: start;
+    }
+    li{
+      padding: 10px;
+
+    }
+
+}
