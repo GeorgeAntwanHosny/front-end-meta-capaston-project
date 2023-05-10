@@ -15,7 +15,7 @@ a{
     padding: 20px;
     text-align: center;
 }
-a:hover{
+a:hover, .active{
     background-color: darkslategray;
     color:white;
 }

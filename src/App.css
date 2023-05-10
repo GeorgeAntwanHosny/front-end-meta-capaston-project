@@ -20,7 +20,20 @@ footer{
     margin: 5px;
     background-color: bisque;
 }
+table {
 
+    border: 1px solid black;
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 8px;
+    text-align: center;
+    border: 1px solid black;
+}
+th {
+    background-color: #d1cfcf;
+}
 /*@media (max-width: 768px) {*/
 
 /*    .App {*/

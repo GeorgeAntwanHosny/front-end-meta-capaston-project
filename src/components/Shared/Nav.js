@@ -1,29 +1,35 @@
 import './Nav.css'
+import {NavLink} from 'react-router-dom'
 const Nav = () => {
+
+
   return (
     <>
       <nav>
         <ul>
           <li>
-            <a href="#">Home</a>
+            <NavLink excat="true"  to="/" activeclassname="active">Home</NavLink>
           </li>
           <li>
-            <a href="#">About</a>
+            <NavLink to="/about" activeclassname="active">About</NavLink>
           </li>
           <li>
-            <a href="#">Menu</a>
+            <NavLink to="/menu" activeclassname="active">Menu</NavLink>
           </li>
           <li>
-            <a href="#">Reservations</a>
+            <NavLink to="/reservations" activeclassname="active">Reservations</NavLink>
           </li>
           <li>
-            <a href="#">Order Online</a>
+          <NavLink to="/order-online" activeclassname="active">Order Online</NavLink>
           </li>
           <li>
-            <a href="#">Login</a>
+            <NavLink to="/login" activeclassname="active">Login</NavLink>
           </li>
         </ul>
       </nav>
+
+
+
     </>
   );
 };

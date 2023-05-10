@@ -1,7 +1,7 @@
-const Main = () => {
-  return (
+const Main = ({ children }) => {
+    return (
     <main>
-      <p>Main</p>
+        {children}
     </main>
   );
 };
